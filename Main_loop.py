@@ -65,6 +65,9 @@ while gam == 0 :
     s1 = str(s1_int)
     s2 = str(s2_int)
     s3 = str(s3_int)
+    print("Day: " +day+ "  Days left: " + run_str + " ")
+    print("Hawks:" +hawk_str+ "  Doves: " + dove_str + " ")
+    print("Hawk percent:" + hawk_percent + "%  Dove percent: " + dove_percent + "% ")   
     if s1_int == 1 :
       print("A Dove met a Dove 1 time")
     elif s1_int == 0 : 
@@ -83,9 +86,6 @@ while gam == 0 :
       print("A Hawk didn't meet a Dove")
     else :
       print("Hawk met Dove " +s3+ " times")
-    print("Day: " +day+ "  Days left: " + run_str + " ")
-    print("Hawks:" +hawk_str+ "  Doves: " + dove_str + " ")
-    print("Hawk percent:" + hawk_percent + "%  Dove percent: " + dove_percent + "% ")
     for x in range(19):
       print("Progress: {:.1%}".format(x / 18 ), end="\r") # GABRIEL ZANE RODRIGUEZ participated
       time.sleep(0.5)
@@ -95,3 +95,4 @@ while gam == 0 :
       s2_int = 0
       s3_int = 0
   
+
