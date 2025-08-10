@@ -90,9 +90,10 @@ while gam == 0 :
       print("Progress: {:.1%}".format(x / 18 ), end="\r") # GABRIEL ZANE RODRIGUEZ participated
       time.sleep(0.5)
     if run == 0 :
-      print("Would you like to do a another simulation?")
+      gam = input("Would you like to do a another simulation? (put 0 to continue) ")
       s1_int = 0
       s2_int = 0
       s3_int = 0
   
+
 
