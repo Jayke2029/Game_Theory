@@ -11,15 +11,13 @@ s3_int = 0 ;
 firt = 3 ;
 gam = 0 ;
 run = 0 ;
-
-res = input("Welcome to my game theory simulation would you like to know how this works? y/n ") ;
 while gam == 0 :
   if run == 0 :
     hawk = input("How many Hawks?")
     dove = input("How many Doves?")
-    run_str = input("How long do you want to simulate? (input a number) ") ; 
-    rep_str = input("How many confrontations per day? (input a number) ") ;
-    qrt_str = input("Chance of Dove reproducing when meeting another dove. EX: 1/(input) ") ;
+    run_str = input("How many days do you want to simulate? (input a number) ") ; 
+    rep_str = input("How many times will a hawks and doves interact with each other per day? (input a number) ") ;
+    qrt_str = input("Chance of Dove making another Dove when meeting a dove. EX: 1/(input) ") ;
     wer_str = input("Chance of Hawk dying when meeting another Hawk. EX: 1/(input) ") ;
     qwe_str = input("Chance of Dove dying when meeting a Hawk. EX: 1/(input) ") ;
     run = int(run_str)
@@ -95,5 +93,6 @@ while gam == 0 :
       s2_int = 0
       s3_int = 0
   
+
 
 
